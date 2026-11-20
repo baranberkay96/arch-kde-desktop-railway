@@ -1,5 +1,7 @@
 # Deploy and Host Arch Linux KDE Plasma Desktop with Railway
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/arch-linux-kde-plasma-desktop-in-your-br?referralCode=20H68q)
+
 An Arch Linux desktop with KDE Plasma (Wayland) that you open in a browser tab. It comes with Chromium, the Dolphin file manager, the Konsole terminal, Kate and Discover. A generated password protects it, and your home directory (files, settings, browser profile) lives on a persistent volume.
 
 ## About Hosting Arch Linux KDE Plasma Desktop
