@@ -21,7 +21,7 @@ Listing: **Arch Linux KDE Plasma Desktop in Your Browser**, "Arch Linux KDE Plas
 
 | Service | Idle RAM | Typical | CPU |
 |---|---|---|---|
-| Desktop | ~0.6 GB (estimate) | 1–2 GB with Chromium | 0.1 vCPU idle, 1–2 vCPU while the screen changes |
+| Desktop | about 0.57 GB of RAM idle with the KDE session running, and the desktop stayed up under a 1 GB limit (Trial), where the service showed 0.90 GB including the file cache of a package restore | 1–2 GB with Chromium | 0.1 vCPU idle, 1–2 vCPU while the screen changes |
 
 About $6–10/month idle at Railway prices plus the volume ($0.15/GB-month); more while the desktop is in use. Minimum plan: Trial (1 GB); Free (0.5 GB) is too small.
 
