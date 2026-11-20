@@ -33,7 +33,7 @@ A browser desktop needs a display server, a desktop session, a streaming server,
 |---|---|---|---|
 | Desktop | KDE Plasma on Wayland (KWin) desktop session, D-Bus, audio, Selkies (loopback only), nginx (login, `/healthz`), all supervised by s6 | `/config` | 3000 (public HTTPS domain) |
 
-**Plan:** Measured on Railway: about 0.57 GB of RAM idle with the KDE session running, and the desktop stayed up under a 1 GB limit (Trial), where the service showed 0.90 GB including the file cache of a package restore. Free's 0.5 GB is too small. Use Hobby and 2 GB or more for Chromium and larger apps.
+**Plan:** Measured on Railway: about 0.57 GB of RAM idle with the KDE session running, also under a 1 GB limit (Trial) after reinstalling packages, so it fits Trial. Free's 0.5 GB is too small. Use Hobby and 2 GB or more for Chromium and larger apps.
 
 **First login**
 
