@@ -17,7 +17,7 @@
     "repo": "linuxserver/docker-webtop",
     "branch": "arch-kde",
     "version": "arch-kde-2025-07-12-ls271",
-    "image": "lscr.io/linuxserver/webtop:arch-kde-2025-07-12-ls271@sha256:326c66c83c3c6723fe758687a11ac9f7e798845899c2664df8a416ac617090a7",
+    "image": "ghcr.io/linuxserver/webtop:arch-kde-2025-07-12-ls271@sha256:326c66c83c3c6723fe758687a11ac9f7e798845899c2664df8a416ac617090a7",
     "base": "baseimage-selkies:arch",
     "checked": "2026-11-20"
   },

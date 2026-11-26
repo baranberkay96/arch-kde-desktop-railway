@@ -8,7 +8,9 @@
 # of Arch on its build day. The digest is the multi-arch index, identical on
 # lscr.io, ghcr.io and Docker Hub. To upgrade, replace tag and digest together
 # with a newer "arch-kde-<version>-ls<n>" release and redeploy.
-FROM lscr.io/linuxserver/webtop:arch-kde-2025-07-12-ls271@sha256:326c66c83c3c6723fe758687a11ac9f7e798845899c2664df8a416ac617090a7
+# Pulled from ghcr.io directly: lscr.io only redirects there, and a failed
+# redirect fails the whole build at this step.
+FROM ghcr.io/linuxserver/webtop:arch-kde-2025-07-12-ls271@sha256:326c66c83c3c6723fe758687a11ac9f7e798845899c2664df8a416ac617090a7
 
 # Image defaults for Railway. Variables set on the Railway service win.
 #  - PUID/PGID 1000: fixed owner of the /config volume. Do not change them

@@ -2,7 +2,7 @@
 
 ## Base image and its components
 
-The service is built `FROM lscr.io/linuxserver/webtop:arch-kde-2025-07-12-ls271@sha256:326c66c83c3c6723fe758687a11ac9f7e798845899c2664df8a416ac617090a7` (built 2026-11-18; multi-arch index digest checked on Docker Hub 2026-11-20, 2.29 GB compressed for amd64, below the 4 GB Trial/Free image limit). The image is used as published by linuxserver.io. This repository contains no copy of its source files.
+The service is built `FROM ghcr.io/linuxserver/webtop:arch-kde-2025-07-12-ls271@sha256:326c66c83c3c6723fe758687a11ac9f7e798845899c2664df8a416ac617090a7` (built 2026-11-18; multi-arch index digest checked on Docker Hub 2026-11-20, 2.29 GB compressed for amd64, below the 4 GB Trial/Free image limit). The image is used as published by linuxserver.io. This repository contains no copy of its source files.
 
 | Component | Source | License | How it is used |
 |---|---|---|---|

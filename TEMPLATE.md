@@ -5,7 +5,7 @@ Listing: **Arch Linux KDE Plasma Desktop in Your Browser**, "Arch Linux KDE Plas
 ## Service: Desktop
 
 - Source: repo `baranberkay96/arch-kde-desktop-railway`, root directory `/services/desktop` (Dockerfile).
-- Base: `lscr.io/linuxserver/webtop:arch-kde-2025-07-12-ls271@sha256:326c66c83c3c6723fe758687a11ac9f7e798845899c2664df8a416ac617090a7` (built 2026-11-18, 2.29 GB compressed).
+- Base: `ghcr.io/linuxserver/webtop:arch-kde-2025-07-12-ls271@sha256:326c66c83c3c6723fe758687a11ac9f7e798845899c2664df8a416ac617090a7` (built 2026-11-18, 2.29 GB compressed).
 - Public domain, target port 3000, healthcheck `/healthz` (600 s), restart ON_FAILURE ×10, 1 replica.
 - Volume `/config`.
 - Variables: `PASSWORD` = `${{secret(32)}}`, `CUSTOM_USER` = `arch`, `PORT` = `3000`, `TZ` = `Etc/UTC`, `TITLE` = `Arch Linux KDE Plasma Desktop`, `PACMAN_PACKAGES` = `empty`, `RAILWAY_DEPLOYMENT_DRAINING_SECONDS` = `15`.
